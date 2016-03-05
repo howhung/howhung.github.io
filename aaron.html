@@ -1,28 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link href="css/aaron.css" rel="stylesheet"/>
-        <title>AARON</title>
-    </head>
-    <body style="cursor: url(img/cursor.png), default">
-        <script>
-            function mDown(obj) {
-                obj.style.cursor = 'url(img/cursor2.png), default';
-                obj.src = 'img/jakub.png';
-            }
+<html lang="en">
+<head>
+  <title>FIND THE AA-Ron</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-            function mUp(obj) {
-                obj.style.cursor = 'url(img/cursor1.png), default';
-                obj.src = 'img/jakub_poked.png';
-            }
-        </script>
-        <div class="text">
-            HAOHANG THE AARON!
-        </div>
-        <div>
-            <center>
-                <img id="aaron" style="cursor: url(img/cursor1.png), default" onMouseDown="mDown(this)" onMouseUp="mUp(this)" onMouseOut="mUp(this)" src="img/jakub_poked.png" width="600">
-            </center>
-        </div>
-    </body>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class="container bg-2  text-center" style="padding-top:100px">
+</div>
+
+<div class="container bg-2">
+  <p id="game">
+    <img id="aaron" src="img/aa_s.png">
+    <img id="cup1" class="img-responsive" class="cup" src="img/cup_s.png">
+    <img id="cup2" class="img-responsive" class="cup" src="img/cup_s.png">
+    <img id="cup3"  class="img-responsive" class="cup" src="img/cup_s.png">
+  </p>
+  <h3 id="inst-text">Play a game with HHX!!</h3>
+</div>
+
+<div class="container bg-1 text-center">
+  <h3>Find the AA-RON!!!</h3>
+  <img src="img/hh4_s.png" id="hhx" alt="da hhx" class="img-responsive" style = "width:40%; display:inline">
+</div>
+
+<footer class="container bg-4 text-center">
+  <p>Don't be stealin' dis site bro. Also don't sue.</p>
+</footer>
+
+</body>
+<script src="js/cups.js"></script>
 </html>

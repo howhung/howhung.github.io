@@ -1,0 +1,75 @@
+.bg-1
+{
+    background-color: #56656a;
+    color: #00000;
+}
+
+.cup
+{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  color: teal;
+
+}
+
+#game
+{
+  width: 900px;
+  height: 430px;
+  margin-top: 100px;
+  margin: auto;
+  position: relative;
+}
+
+.bg-2 {
+    background-color: #474e5d;
+    color: #ffffff;
+    text-align: center;
+}
+
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+#inst-text {
+  font-size: 80px;
+  }
+
+
+/*
+.bg-3 {
+    background-color: #ffffff;
+    color: #555555;
+}
+
+.container-fluid {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+body {
+    font: 10px "Montserrat", sans-serif;
+    line-height: 1.2;
+    color: #f5f6f7;
+}
