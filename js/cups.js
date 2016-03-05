@@ -171,4 +171,4 @@ var game = (function (){
 //   setTimeout(step, timeStep)
 // }
 
-game.start();
+document.addEventListener('DOMContentLoaded', game.start);
