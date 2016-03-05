@@ -16,6 +16,9 @@ var game = (function (){
   var timeLimit = 16;
 
   var resetGame = function() {
+    cupWidth = cups[0].width;
+    aaron = document.getElementById("aaron");
+
     instructionText.onclick = null;
     setText("Play a game with HHX!!")
     var i;
@@ -142,6 +145,8 @@ var game = (function (){
   }
 
   var playGame = function() {
+    resetGame();
+    resetGame();
     resetGame();
     animFunc();
   }
