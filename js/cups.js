@@ -64,6 +64,7 @@ var game = (function (){
   }
 
   var setText = function (text) {
+    instructionText.innerHTML = text;
     instructionText.innerText = text;
   }
 
