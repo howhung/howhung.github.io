@@ -6,7 +6,7 @@ var game = (function (){
   var cups = [document.getElementById("cup1"),
               document.getElementById("cup2"),
               document.getElementById("cup3")];
-  var cupWidth = cups[0].width;
+  var cupWidth = 300;
   var aaron = document.getElementById("aaron");
 
   var gameCounter = 0;
@@ -16,7 +16,7 @@ var game = (function (){
   var timeLimit = 16;
 
   var resetGame = function() {
-    cupWidth = cups[0].width;
+    cupWidth = 300;
     aaron = document.getElementById("aaron");
 
     instructionText.onclick = null;
